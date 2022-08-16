@@ -18,6 +18,11 @@ body {
     display: none;
 }
 
+.header__logo--img {
+    width: 80px;
+
+}
+
 .walink {
     position: fixed;
     right: 3%;
@@ -89,7 +94,7 @@ body {
     /* height: 8vh; */
     z-index: 1000;
     position: fixed;
-    padding-bottom: 1em;
+    padding: 1em;
 
 }
 
