@@ -368,6 +368,7 @@ body {
 
     .header__ham {
         display: block;
+        padding: 0 !important;
     }
 
     .header__menu {
@@ -379,12 +380,13 @@ body {
     }
 
     .header__ham--links-container {
+        /* outline: 10px solid var(--theme-color); */
         position: absolute;
-        width: 100vw;
+        width: 40vw;
         right: 0;
         text-align: center;
         background-color: white;
-        height: 20vh;
+        /* height: 20vh; */
         display: flex;
         /* display: none; */
         height: 0;
@@ -467,7 +469,8 @@ body {
 
 .header__ham--links-container-on {
     /* display: flex; */
-    height: 30vh;
+    height: 40vh;
+    top: 100%;
 }
 
 .header__ham--link-link-on {
